@@ -37,7 +37,6 @@ const TechCategory: React.FC<TechCategoryProps> = ({ title, technologies }) => {
 };
 
 // ToolsSection removed — kept as a no-op stub to avoid accidental imports elsewhere.
-import React from 'react';
 
 const ToolsSection: React.FC = () => null;
 

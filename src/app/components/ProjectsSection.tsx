@@ -25,6 +25,25 @@ interface ProjectCardProps {
   status?: string;
 }
 
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  image?: string;
+  images?: string[];
+  technologies: string[];
+  links: {
+    code?: string;
+    demo?: string;
+    case?: string;
+    download?: string;
+    article?: string;
+  };
+  categories: string[];
+  featured?: boolean;
+  status?: string;
+}
+
 // ImageSwiper: uses Swiper library for reliable autoplay carousel
 const ImageCarousel: React.FC<{
   images?: string[];
@@ -227,7 +246,7 @@ const ProjectsSection: React.FC = () => {
   const categories = [
     { id: 'all', label: t('projects.filters.all') }
   ];
-  const projects = [
+  const projects: Project[] = [
     {
       id: 1,
       title: t('projects.elisa.title'),
@@ -265,8 +284,8 @@ const ProjectsSection: React.FC = () => {
   ];
   
   // Filter projects based on selected category
-  const filteredProjects = filter === 'all' 
-    ? projects 
+  const filteredProjects: Project[] = filter === 'all'
+    ? projects
     : projects.filter(project => project.categories.includes(filter));
 
     return (
