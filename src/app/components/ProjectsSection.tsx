@@ -215,31 +215,32 @@ const ProjectsSection: React.FC = () => {
   const carouselMap: Record<number, string[]> = {
     1: [
       '/carrito.PNG',
-      '/dashboard.png',
-      '/detallescompra.png',
-      '/estadisticas.png',
-      '/mostrarproduc.png',
-      '/pago.png',
-      '/pre-venta.png',
+      '/dashboard.PNG',
+      '/detallescompra.PNG',
+      '/estadisticas.PNG',
+      '/mostrarproduc.PNG',
+      '/pago.PNG',
+      '/Pre-venta.PNG',
+      '/ultimosProducts.PNG',
       '/ultimosProductos.PNG',
-      '/opcionesproduc.png'
+      '/opcionesproduc.PNG'
     ]
     ,
     2: [
-      '/facturacion.png',
-      '/facturacioncliente.png',
-      '/pagonuevo.png',
-      '/pagoparcial.png',
-      '/pagosF.png',
-      '/detalleF.png'
+      '/facturacion.PNG',
+      '/facturacioncliente.PNG',
+      '/pagonuevo.PNG',
+      '/pagoparcial.PNG',
+      '/pagosF.PNG',
+      '/detalleF.PNG'
     ],
     3: [
-      '/chicuadrado.png',
-      '/congruencias.png',
-      '/existencia.png',
-      '/marcaclase.png',
-      '/poker.png',
-      '/vonneuman.png'
+      '/chicuadrado.PNG',
+      '/congruencias.PNG',
+      '/existencia.PNG',
+      '/marcaclase.PNG',
+      '/poker.PNG',
+      '/vonneuman.PNG'
     ]
   };
   
