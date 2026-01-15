@@ -5,43 +5,9 @@ import { motion } from "framer-motion";
 const EducationSection = () => {
   const { t } = useLanguage();
 
-  const education = [
-    {
-      degree: "Lic en Sistemas de Información",
-      institution: "Universidad Nacional de Misiones",
-      location: "Misiones, Argentina",
-      period: "Feb. 2019 – Actualidad",
-      description:
-        "Estudiante avanzada en la carrera de Lic en Sistemas de Información, con enfoque en desarrollo de software, análisis de sistemas y bases de datos.",
-      highlights: [],
-    },
-    {
-      degree: "Analista en Sistemas de Computación",
-      institution: "Universidad Nacional de Misiones",
-      location: "Misiones, Argentina",
-      period: "Feb. 2019 – Mar. 2025",
-      description:
-        "Título intermedio obtenido durante la Licenciatura. Formación en programación, bases de datos, ingeniería de software y metodologías ágiles.",
-      highlights: [],
-    },
-  ];
+  const educationKeys = ["education.item1", "education.item2"];
 
-  const courses = [
-    {
-      course: "AWS Academy Graduate - Cloud Foundations",
-      institution: "AWS Academy",
-      period: "2025",
-      description:
-        "Fundamentos de computación en la nube, servicios principales de AWS y buenas prácticas para entornos escalables y seguros.",
-    },
-    {
-      course: "Introducción a la Ciencia de Datos",
-      institution: "Santander Open Academy",
-      period: "En curso",
-      description:
-        "Capacitación en análisis de datos, visualización y fundamentos de machine learning.",
-    },
-  ];
+  const coursesKeys = ["education.course1", "education.course2"];
 
   return (
     <section id="education" className="py-20 bg-gray-50">
@@ -62,7 +28,7 @@ const EducationSection = () => {
         </motion.div>
 
         <div className="max-w-4xl mx-auto">
-          {education.map((edu, index) => (
+          {educationKeys.map((key, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
@@ -75,19 +41,15 @@ const EducationSection = () => {
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900">
-                      {edu.degree}
+                      {t(`${key}.degree`)}
                     </h3>
-                    {edu.institution && (
-                      <p className="text-blue-600 font-medium">
-                        {edu.institution}
-                      </p>
-                    )}
+                    <p className="text-blue-600 font-medium">{t(`${key}.institution`)}</p>
                   </div>
                   <div className="mt-2 md:mt-0 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                    {edu.period}
+                    {t(`${key}.period`)}
                   </div>
                 </div>
-                <p className="text-gray-700 mb-4">{edu.description}</p>
+                <p className="text-gray-700 mb-4">{t(`${key}.description`)}</p>
               </div>
             </motion.div>
           ))}
@@ -111,7 +73,7 @@ const EducationSection = () => {
         </motion.div>
 
         <div className="max-w-4xl mx-auto">
-          {courses.map((course, index) => (
+          {coursesKeys.map((key, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
@@ -123,18 +85,12 @@ const EducationSection = () => {
               <div className="p-8">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      {course.course}
-                    </h3>
-                    <p className="text-blue-600 font-medium">
-                      {course.institution}
-                    </p>
+                    <h3 className="text-2xl font-bold text-gray-900">{t(`${key}.title`)}</h3>
+                    <p className="text-blue-600 font-medium">{t(`${key}.institution`)}</p>
                   </div>
-                  <div className="mt-2 md:mt-0 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                    {course.period}
-                  </div>
+                  <div className="mt-2 md:mt-0 px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">{t(`${key}.period`)}</div>
                 </div>
-                <p className="text-gray-700">{course.description}</p>
+                <p className="text-gray-700">{t(`${key}.description`)}</p>
               </div>
             </motion.div>
           ))}

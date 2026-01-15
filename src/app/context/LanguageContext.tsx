@@ -52,11 +52,11 @@ const translations: TranslationsType = {
       'Knowledge of relational databases (PostgreSQL, MySQL) and cloud foundations (AWS Academy certified).',
     'about.profile.title': 'Professional Profile',
     'about.profile.p1':
-      "As a developer with a strong academic background in Information Systems, I specialize in building and maintaining scalable web applications with PHP and Laravel.",
+      'Systems Analyst with a university education in Information Systems, focused on designing and developing software solutions aligned with business needs.',
     'about.profile.p2':
-      "In my projects, such as the 'Elisa Modas' e-commerce system, I designed and implemented supplier modules, automated purchase order flows, and payment integrations.",
+      'I have experience in requirements analysis, data modeling, flow definition, and systems architecture, participating across the full software lifecycle: from planning and design to implementation and continuous improvement.',
     'about.profile.p3':
-      'I have a solid foundation in backend development, complemented with frontend skills in Vue.js and React, and I am continuously learning cloud and data science technologies.',
+      'I have developed complete web systems, such as e-commerce platforms and internal management systems, where I designed critical modules, automated processes, and complex flows, prioritizing scalability, maintainability, and development best practices. I possess a strong backend foundation with complementary frontend knowledge, and a particular interest in process automation, information scraping, and optimizing repetitive tasks through programmatic solutions.',
     'about.contact.job': 'Software Developer',
     'about.contact.location': 'Misiones, Argentina',
     'about.contact.email': 'mendezcamilaitati@gmail.com', // correo actualizado
@@ -124,6 +124,30 @@ const translations: TranslationsType = {
     'education.description': 'My academic background and university trajectory',
     'education.courses.title': 'Courses & Certifications',
     'education.courses.description': 'Relevant complementary training and certifications',
+    // Education items
+    'education.item1.degree': 'B.Sc. in Information Systems',
+    'education.item1.institution': 'National University of Misiones',
+    'education.item1.location': 'Misiones, Argentina',
+    'education.item1.period': 'Feb. 2019 – Present',
+    'education.item1.description':
+      'Advanced student in the B.Sc. in Information Systems program, focusing on software development, systems analysis and databases.',
+    'education.item2.degree': 'Analyst in Computer Systems',
+    'education.item2.institution': 'National University of Misiones',
+    'education.item2.location': 'Misiones, Argentina',
+    'education.item2.period': 'Feb. 2019 – Mar. 2025',
+    'education.item2.description':
+      'Intermediate title obtained during the degree. Training in programming, databases, software engineering and agile methodologies.',
+    // Courses items
+    'education.course1.title': 'AWS Academy Graduate - Cloud Foundations',
+    'education.course1.institution': 'AWS Academy',
+    'education.course1.period': '2025',
+    'education.course1.description':
+      'Foundations of cloud computing, core AWS services and best practices for scalable and secure environments.',
+    'education.course2.title': 'Introduction to Data Science',
+    'education.course2.institution': 'Santander Open Academy',
+    'education.course2.period': 'Ongoing',
+    'education.course2.description':
+      'Training in data analysis, visualization and fundamentals of machine learning.',
     // Meta
     'meta.title': 'Camila Mendez - Systems Analyst',
     'meta.description': 'Web developer and systems analyst with experience in software projects and a focus on continuous improvement.',
@@ -166,11 +190,11 @@ const translations: TranslationsType = {
       'Modelado, persistencia',
     'about.profile.title': 'Perfil Profesional',
     'about.profile.p1':
-      'Como estudiante avanzada de Licenciatura en Sistemas e intermedia como Analista, me especializo en desarrollar aplicaciones web escalables con PHP y Laravel.',
+      'Analista en Sistemas, con formación universitaria en Sistemas de Información, orientada al diseño y desarrollo de soluciones de software alineadas a las necesidades del negocio.',
     'about.profile.p2':
-      "En mis proyectos, como el sistema de e-commerce 'Elisa Modas', diseñé e implementé módulos de proveedores, flujos automatizados de órdenes de compra e integraciones de pago.",
+      'Cuento con experiencia en el análisis de requerimientos, modelado de datos, definición de flujos y arquitectura de sistemas, participando en todo el ciclo de vida del software: desde la planificación y el diseño, hasta la implementación y mejora continua.',
     'about.profile.p3':
-      'Tengo una sólida base en backend y habilidades complementarias en frontend con Vue.js y React, y continúo formándome en tecnologías cloud y ciencia de datos.',
+      'He desarrollado sistemas web completos, como plataformas de e-commerce y sistemas de gestión interna, donde diseñé módulos críticos, procesos automatizados y flujos complejos, priorizando las buenas prácticas de desarrollo. Poseo una base sólida en backend, con conocimientos complementarios en frontend, y un especial interés en la automatización de procesos, scraping de información y optimización de tareas repetitivas.',
     'about.contact.job': 'Desarrolladora de Software',
     'about.contact.location': 'Misiones, Argentina',
     'about.contact.email': 'mendezcamilaitati@gmail.com', // correo actualizado
@@ -232,6 +256,30 @@ const translations: TranslationsType = {
     'education.description': 'Mi formación académica y trayectoria universitaria',
     'education.courses.title': 'Cursos y Capacitaciones',
     'education.courses.description': 'Formación complementaria y certificaciones relevantes',
+    // Education items (ES)
+    'education.item1.degree': 'Lic en Sistemas de Información',
+    'education.item1.institution': 'Universidad Nacional de Misiones',
+    'education.item1.location': 'Misiones, Argentina',
+    'education.item1.period': 'Feb. 2019 – Actualidad',
+    'education.item1.description':
+      'Estudiante avanzada en la carrera de Lic en Sistemas de Información, con enfoque en desarrollo de software, análisis de sistemas y bases de datos.',
+    'education.item2.degree': 'Analista en Sistemas de Computación',
+    'education.item2.institution': 'Universidad Nacional de Misiones',
+    'education.item2.location': 'Misiones, Argentina',
+    'education.item2.period': 'Feb. 2019 – Mar. 2025',
+    'education.item2.description':
+      'Título intermedio obtenido durante la Licenciatura. Formación en programación, bases de datos, ingeniería de software y metodologías ágiles.',
+    // Courses items (ES)
+    'education.course1.title': 'AWS Academy Graduate - Cloud Foundations',
+    'education.course1.institution': 'AWS Academy',
+    'education.course1.period': '2025',
+    'education.course1.description':
+      'Fundamentos de computación en la nube, servicios principales de AWS y buenas prácticas para entornos escalables y seguros.',
+    'education.course2.title': 'Introducción a la Ciencia de Datos',
+    'education.course2.institution': 'Santander Open Academy',
+    'education.course2.period': 'En curso',
+    'education.course2.description':
+      'Capacitación en análisis de datos, visualización y fundamentos de machine learning.',
     // Experience details (ES)
     'experience.item1.title': 'Desarrolladora Backend – Java | Spring Boot',
     'experience.item1.description': `Sistema integral para la gestión de clientes, servicios y facturación. Incluye creación y administración de servicios con diferentes tarifas e IVA, facturación masiva e individual, registro de pagos parciales/totales, anulaciones con motivo y reportes administrativos. Implementado con arquitectura por capas, validaciones, DTOs, controladores REST, persistencia con JPA y manejo de estados de facturas.`,
