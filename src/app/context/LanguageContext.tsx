@@ -85,7 +85,7 @@ const translations: TranslationsType = {
     'projects.featured': 'Featured Project',
     'projects.elisa.title': 'Elisa Modas',
     'projects.elisa.desc':
-      'Elisa Modas is an end-to-end management platform for the apparel sector. It enables sales, stock, customer and supplier management, product sizing and color variants, automated purchase orders and clearer real-time decision-making.',
+      'Full development of a web platform for comprehensive management of an apparel store. The system supports product variants, minimum stock, suppliers and purchase orders, automates quote requests based on stock levels, integrates with Mercado Pago, and includes roles/permissions and audit logging.',
     'projects.services.title': 'Service Management',
     'projects.services.desc': 'Web application focused on client, service and billing administration, designed to centralize processes, automate collections and simplify financial control clearly and efficiently.',
     'projects.simulation.title': 'Model Simulation',
@@ -99,9 +99,9 @@ const translations: TranslationsType = {
     'experience.item1.title': 'Backend Developer – Java | Spring Boot',
     'experience.item1.description': 'Comprehensive system for client, service and billing management. Includes service creation and administration with different tariffs and VAT, bulk and individual invoicing, partial/full payment recording, cancellations with reasons and administrative reports. Implemented with layered architecture, validation, DTOs, REST controllers, JPA persistence and invoice state management.',
     'experience.item2.title': 'Full Stack Developer',
-    'experience.item2.description': "End-to-end platform for apparel stores with stock monitoring, Mercado Pago integration, automated supplier orders and action auditing.",
+    'experience.item2.description': 'Full development of a web platform for the comprehensive management of an apparel store. The system allows managing products with variants, minimum stock levels, suppliers, and purchase orders. It includes automation of quote requests based on stock levels, integration with Mercado Pago, a roles and permissions system, and auditing of system actions.',
     'experience.item3.title': 'Model Simulation & Analysis',
-    'experience.item3.description': 'Academic projects implementing random number generation algorithms and statistical tests (Chi-Square, Poker) for decision making under uncertainty.',
+    'experience.item3.description': 'Implemented random number generation algorithms (Von Neumann, congruential methods), randomness statistical tests (Chi-Square, Poker) and class-mark analysis. All were integrated into an inventory model to evaluate decision-making under uncertainty in simulated scenarios.',
     'experience.freelance': 'Freelance & University Projects',
     'experience.freelance.desc':
       'Development of academic and freelance projects, including e-commerce, supplier management systems, and automation of purchase flows.',
@@ -223,7 +223,7 @@ const translations: TranslationsType = {
     'projects.featured': 'Proyecto Destacado',
     'projects.elisa.title': 'Elisa Modas',
     'projects.elisa.desc':
-      'Plataforma de e-commerce con gestión de proveedores, monitoreo automatizado de stock, flujos de órdenes de compra e integración con Mercado Pago.',
+      'Desarrollo completo de una plataforma web para la gestión integral de una tienda de indumentaria. El sistema permite administrar productos con variantes, stock mínimo, proveedores y órdenes de compra. Incluye automatización de solicitudes de cotización según niveles de stock, integración con Mercado Pago, sistema de roles y permisos, y registro de auditoría de acciones del sistema.',
     'projects.services.title': 'Gestión de Servicios',
     'projects.services.desc': 'Aplicación web orientada a la administración de clientes, servicios y facturación, diseñada para centralizar procesos, automatizar cobros y facilitar el control financiero de manera clara y eficiente.',
     'projects.simulation.title': 'Simulación de Modelos',
@@ -284,9 +284,9 @@ const translations: TranslationsType = {
     'experience.item1.title': 'Desarrolladora Backend – Java | Spring Boot',
     'experience.item1.description': `Sistema integral para la gestión de clientes, servicios y facturación. Incluye creación y administración de servicios con diferentes tarifas e IVA, facturación masiva e individual, registro de pagos parciales/totales, anulaciones con motivo y reportes administrativos. Implementado con arquitectura por capas, validaciones, DTOs, controladores REST, persistencia con JPA y manejo de estados de facturas.`,
     'experience.item2.title': 'Desarrolladora Full Stack',
-    'experience.item2.description': 'Plataforma integral para gestión de tiendas de indumentaria. Incluye administración de stock mínimo, integración con Mercado Pago, automatización de pedidos a proveedores y sistema de auditoría de acciones.',
+    'experience.item2.description': 'Desarrollo completo de una plataforma web para la gestión integral de una tienda de indumentaria. El sistema permite administrar productos con variantes, stock mínimo, proveedores y órdenes de compra. Incluye automatización de solicitudes de cotización según niveles de stock, integración con Mercado Pago, sistema de roles y permisos, y registro de auditoría de acciones del sistema.',
     'experience.item3.title': 'Desarrollo y Análisis',
-    'experience.item3.description': 'Proyectos académicos de simulación con pruebas estadísticas y generación de números aleatorios para toma de decisiones.',
+    'experience.item3.description': 'Se implementaron algoritmos de generación de números aleatorios (Von Neumann, congruencias), pruebas estadísticas de aleatoriedad (Chi-Cuadrado, Poker) y análisis de marcas de clase. Todo fue integrado en un modelo de existencias para evaluar decisiones bajo incertidumbre en escenarios simulados.',
     // Meta
     'meta.title': 'Camila Mendez - Analista en sistemas',
     'meta.description': 'Desarrolladora web y analista en sistemas con experiencia en proyectos de software y un enfoque en la mejora continua.',

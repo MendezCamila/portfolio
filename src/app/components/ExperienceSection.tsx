@@ -98,13 +98,13 @@ const ExperienceSection: React.FC = () => {
   },
   {
     title: t('experience.item2.title'),
-    company: "Elisa Modas (Freelance)",
+    company: "Elisa Modas",
     date: "Abril 2024 - Marzo 2025",
     description: t('experience.item2.description'),
     tags: ["PHP", "Laravel 11", "Livewire", "MySQL", "JavaScript", "Bootstrap"],
     icon: (
       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
       </svg>
     )
   },
